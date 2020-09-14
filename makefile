@@ -6,3 +6,6 @@ main.o: main.c cubeops.h
 
 cubeops.o: cubeops.c cubeops.h
 	gcc -Wall -c cubeops.c
+
+clean:
+	rm -f *.o *.exe
